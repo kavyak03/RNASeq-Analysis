@@ -11,7 +11,7 @@ This repository includes custom analysis workflow scripts to analyze RNA-sequenc
 4. Counting reads per transcript (htseq-count)
 5. Calculating FPKMs (Cufflinks)
 
-rnaseqStats.R
+##rnaseqStats.R
 1. read stats and quality metrics 
 2. Read count normalizations
 3. Visualizations
