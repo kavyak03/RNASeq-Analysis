@@ -5,7 +5,7 @@ This repository includes custom analysis workflow scripts to analyze RNA-sequenc
 
 #Workflow:
 ##analyzeRNAseq.py
-1. Read quality control (FastQC)
+1. Read quality control (FastQC)<br>
 2. Trimming and filtering (Trimmomatic)
 3. Alignment to reference genome (STAR)
 4. Counting reads per transcript (htseq-count)
