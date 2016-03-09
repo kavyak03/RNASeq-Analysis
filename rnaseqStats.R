@@ -4,6 +4,7 @@ directory <- "/Volumes/omics4tb/sturkarslan/dvh-coculture-rnaseq/results-03/htse
 # load annotations from MicrobesOnline
 annotations = read.delim("http://microbesonline.org/cgi-bin/genomeInfo.cgi?tId=882;export=tab", header=T, sep="\t", stringsAsFactors=F)
 
+#
 # Collect htseq count files
 sample.WT <- grep("WT",list.files(directory),value=TRUE)
 sample.744 <- grep("744",list.files(directory),value=TRUE)
